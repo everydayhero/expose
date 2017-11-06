@@ -24,7 +24,6 @@ module Expose
     def expose *attributes
       attr_writer *attributes
       helper_method *attributes
-      hide_action *attributes
     end
   end
 end
